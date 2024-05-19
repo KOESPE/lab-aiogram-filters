@@ -1,7 +1,11 @@
-# telegram-bot-api-1
+# lab-aiogram-filters
+В файле non-aiogram.py находится первое задание
+В файле main.py находится кастомный фильтр
+
 
 ## Скриншот работы
-![image](https://github.com/KOESPE/telegram-bot-api-1/assets/34860174/a4cf60be-d987-44ad-8d98-39d843cd3b01)
+![image](https://github.com/KOESPE/lab-aiogram-filters/assets/34860174/bc0f1abf-52ba-48a1-903e-7d2f2c9c5f1c)
+
 
 ## Подготовка к работе
 1. Создать новый проект
@@ -18,19 +22,3 @@ $ pip install python-dotenv
 
 Готово! Осталось запустить файл main.py
 
-types_list: list[str] = [
-   'sticker',   - стикер
-   'photo',    - фото
-   'voice',    - голосовое сообщение
-   'video',    - видеосообщение
-   'audio',    - аудио
-   'location',    - геолокация
-   'forward_origin',   - пересланное сообщение
-   'animation',    - гиф-анимация
-   'poll',    - опрос
-   'story',    - история
-   'contact',    - контакт
-   'video_note',    - кружочек
-   'text',    - текст
-   'document'    - файл
-]
